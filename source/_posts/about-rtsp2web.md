@@ -17,21 +17,7 @@ comments: false
 
 <!-- more -->
 
-# 介绍
 
-[FFmpeg](https://ffmpeg.org/download.html) 是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。可以轻易地实现多种视频格式之间的相互转换。所以：**确保在你要运行 rtsp2web 的机器上已经安装了 FFmpeg。**
-
-> 验证 FFmpeg 是否安装成功： _重新打开一个命令行窗口，输入：`ffmpeg -version` ，如果有相关信息输出，则证明 FFmpeg 的安装是 OK 的。_
-
-## 二、运行 rtsp2web
-
-`rtsp2web` 是一个 `node.js` 包，你可以创建一个新的项目引入它，这个操作很简单，然后运行它即可；也可以把 `rtps2web` 集成到已有的项目中，随项目来运行启动（前提是如果你知道怎么做的话）；
-
-**这里以创建一个新项目运行它为例：（_这是最简单的做法_）**
-
-2.1、创建一个新的文件夹（假如文件夹名叫：`rtsp_server`），_注意 ⚠️：文件夹名称不能是 rtsp2web，这是 npm 的规则_。
-2.2、进入项目文件夹： `cd rtsp_server`。
-2.3、然后安装 `rtsp2web` 包：
 
 ```bash
 npm i rtsp2web
