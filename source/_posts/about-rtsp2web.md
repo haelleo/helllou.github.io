@@ -8,7 +8,7 @@ comments: false
 
 # 前言
 
-我之前研究在 web 中直接播放 rtsp 视频流时，研究了非常多的方案和技术手段，发现了要解决这个问题的核心：
+
 
 <p id="div-border-left-blue">要想在 web 中实时播放 rtsp 视频流：借助服务端拉流转码将是必要的操作。</p>
 
